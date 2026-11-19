@@ -1,0 +1,4 @@
+version,rows,cols,nodes,period_ms,sim_time_s,alerts,suggest_replies,no_node_replies,status_updates,bs_messages,neighbor_msgs,avg_exchange_ms,max_exchange_ms,avg_report_rtt_ms,max_report_rtt_ms,avg_report_comm_ms,max_report_comm_ms,avg_bs_proc_ms,avg_stopcheck_ms,max_stopcheck_ms,avg_shutdown_ms,max_shutdown_ms
+blocking,3,3,9,500,4.051,7,7,0,279,311,1488,15.3393,243.9060,2.3879,16.6070,2.3801,16.5920,0.0077,9.9379,227.1820,26.6148,26.8390
+nonblocking_iprobe,3,3,9,500,4.018,1,1,0,324,344,1728,3.6787,63.9100,2.7970,2.7970,2.7810,2.7810,0.0160,4.5080,62.6310,17.5032,17.5040
+nonblocking_irecv,3,3,9,500,4.002,6,5,0,342,371,1824,2.3075,17.4910,2.6064,5.1020,2.5820,5.0300,0.0215,1.6990,11.8930,1.3233,1.3240

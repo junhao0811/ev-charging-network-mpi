@@ -1,0 +1,63 @@
+========================================================================
+EV Charging Network Base Station Log
+Log Initialized at: 2026-10-22 22:19:35
+Version: nonblocking_iprobe - non-blocking MPI_Isend / MPI_Irecv / MPI_Waitall neighbour exchange + MPI_Iprobe polling Base Station
+Grid Topology Size: 3 x 3 (9 EV Charging Nodes), Base Station = rank 9
+Predefined Period: 500 ms | Simulation Duration: 4 s
+========================================================================
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #1] Timestamp: 2026-10-22 22:19:36 (received 2026-10-22 22:19:36)
+Reporting Node: 8 | Coordinates: (2,2) | Free Ports: 1 / 6
+Neighbour Communications: 4 messages exchanged (80 bytes total) in 1.314 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 7 at (2,1): 1 free ports, no report within period
+  - Neighbour Node 5 at (1,2): 1 free ports, no report within period
+Base Station Decision: 0/2 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 4 at Coordinates (1,1), 3 free ports (recent)
+  -> Suggested Node 2 at Coordinates (0,2), 2 free ports (recent)
+Base Station processing time: 0.016 ms
+------------------------------------------------------------------------
+
+
+========================================================================
+SIMULATION SUMMARY REPORT
+Shutdown Time: 2026-10-22 22:19:39
+Version: nonblocking_iprobe
+Simulation Time: 4.018 s (terminate signal after 4 s)
+Predefined Period: 500 ms
+Total Congestion Alerts Detected: 1
+Replies: 1 with suggested nodes, 0 with no nodes available nearby
+Availability Updates Received: 324
+Base Station Messages (sent + received): 344
+Neighbour Messages Described in Reports: 4
+
+Per-node statistics (from termination acknowledgements):
+Node	Coords	Ticks	Congest	LocalRedir	Reports	NbrMsgs	NbrBytes	AvgExch(ms)	MaxExch(ms)	AvgRTT(ms)	MaxRTT(ms)	AvgStopChk(ms)	Shutdown(ms)
+0	(0,0)	36	9	9		0	144	2880		3.974		56.605		0.000		0.000		4.437		17.502
+1	(0,1)	36	7	7		0	216	4320		3.759		15.411		0.000		0.000		3.951		17.504
+2	(0,2)	36	9	9		0	144	2880		1.426		8.265		0.000		0.000		5.187		17.503
+3	(1,0)	36	9	9		0	216	4320		4.091		15.317		0.000		0.000		3.357		17.503
+4	(1,1)	36	7	7		0	288	5760		4.494		56.422		0.000		0.000		3.926		17.503
+5	(1,2)	36	12	12		0	216	4320		5.433		63.910		0.000		0.000		3.906		17.503
+6	(2,0)	36	11	11		0	144	2880		4.429		57.616		0.000		0.000		4.572		17.504
+7	(2,1)	36	11	11		0	216	4320		3.381		19.465		0.000		0.000		5.130		17.503
+8	(2,2)	36	9	8		1	144	2880		2.122		14.645		2.797		2.797		6.108		17.504
+
+Incident reports: 1 sent by nodes, 1 received by the Base Station
+Total Messages/Events: 2072 (Base Station 344 + Node-to-Node 1728, 34560 bytes)
+Communication delay per message type:
+  Neighbour status exchange:                       avg 3.679 ms, max 63.910 ms (324 exchanges)
+  Incident report -> redirect reply round trip:    avg 2.797 ms, max 2.797 ms (1 answered)
+    of which communication (minus BS processing):  avg 2.781 ms, max 2.781 ms
+    of which Base Station processing:             avg 0.016 ms
+  Stop check (MPI_Reduce + MPI_Bcast per tick):   avg 4.508 ms, max 62.631 ms
+  Terminate signal -> acknowledgement:             avg 17.503 ms, max 17.504 ms
+
+Last known availability grid ('?' = no data):
+(0,0)N0:4	(0,1)N1:5	(0,2)N2:2	
+(1,0)N3:3	(1,1)N4:3	(1,2)N5:0	
+(2,0)N6:4	(2,1)N7:2	(2,2)N8:3	
+
+System Status: All 9 nodes acknowledged termination. Graceful Shutdown Completed.
+========================================================================

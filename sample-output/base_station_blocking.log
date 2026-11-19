@@ -1,0 +1,143 @@
+========================================================================
+EV Charging Network Base Station Log
+Log Initialized at: 2026-10-22 21:00:28
+Version: blocking - blocking MPI_Send / MPI_Recv neighbour exchange + blocking MPI_Recv Base Station
+Grid Topology Size: 3 x 3 (9 EV Charging Nodes), Base Station = rank 9
+Predefined Period: 500 ms | Simulation Duration: 4 s
+========================================================================
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #1] Timestamp: 2026-10-22 21:00:28 (received 2026-10-22 21:00:28)
+Reporting Node: 6 | Coordinates: (2,0) | Free Ports: 1 / 6
+Neighbour Communications: 4 messages exchanged (80 bytes total) in 6.815 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 7 at (2,1): 1 free ports, no report within period
+  - Neighbour Node 3 at (1,0): 1 free ports, no report within period
+Base Station Decision: 0/2 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 8 at Coordinates (2,2), 5 free ports (recent)
+  -> Suggested Node 4 at Coordinates (1,1), 3 free ports (recent)
+Base Station processing time: 0.006 ms
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #2] Timestamp: 2026-10-22 21:00:29 (received 2026-10-22 21:00:29)
+Reporting Node: 2 | Coordinates: (0,2) | Free Ports: 1 / 6
+Neighbour Communications: 4 messages exchanged (80 bytes total) in 16.907 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 1 at (0,1): 0 free ports, no report within period
+  - Neighbour Node 5 at (1,2): 0 free ports, no report within period
+Base Station Decision: 0/2 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 4 at Coordinates (1,1), 4 free ports (recent)
+  -> Suggested Node 8 at Coordinates (2,2), 3 free ports (recent)
+Base Station processing time: 0.015 ms
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #3] Timestamp: 2026-10-22 21:00:30 (received 2026-10-22 21:00:30)
+Reporting Node: 0 | Coordinates: (0,0) | Free Ports: 1 / 6
+Neighbour Communications: 4 messages exchanged (80 bytes total) in 11.544 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 1 at (0,1): 0 free ports, no report within period
+  - Neighbour Node 3 at (1,0): 1 free ports, no report within period
+Base Station Decision: 0/2 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 2 at Coordinates (0,2), 4 free ports (recent)
+  -> Suggested Node 6 at Coordinates (2,0), 3 free ports (recent)
+Base Station processing time: 0.006 ms
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #4] Timestamp: 2026-10-22 21:00:30 (received 2026-10-22 21:00:30)
+Reporting Node: 8 | Coordinates: (2,2) | Free Ports: 1 / 6
+Neighbour Communications: 4 messages exchanged (80 bytes total) in 28.085 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 7 at (2,1): 1 free ports, no report within period
+  - Neighbour Node 5 at (1,2): 0 free ports, no report within period
+Base Station Decision: 0/2 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 6 at Coordinates (2,0), 3 free ports (recent)
+  -> Suggested Node 2 at Coordinates (0,2), 4 free ports (recent)
+Base Station processing time: 0.009 ms
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #5] Timestamp: 2026-10-22 21:00:30 (received 2026-10-22 21:00:30)
+Reporting Node: 4 | Coordinates: (1,1) | Free Ports: 1 / 6
+Neighbour Communications: 8 messages exchanged (160 bytes total) in 4.053 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 3 at (1,0): 1 free ports, no report within period
+  - Neighbour Node 5 at (1,2): 0 free ports, no report within period
+  - Neighbour Node 1 at (0,1): 0 free ports, no report within period
+  - Neighbour Node 7 at (2,1): 1 free ports, no report within period
+Base Station Decision: 0/4 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 6 at Coordinates (2,0), 3 free ports (recent)
+  -> Suggested Node 2 at Coordinates (0,2), 4 free ports (recent)
+Base Station processing time: 0.004 ms
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #6] Timestamp: 2026-10-22 21:00:31 (received 2026-10-22 21:00:31)
+Reporting Node: 8 | Coordinates: (2,2) | Free Ports: 1 / 6
+Neighbour Communications: 4 messages exchanged (80 bytes total) in 0.003 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 7 at (2,1): 0 free ports, no report within period
+  - Neighbour Node 5 at (1,2): 1 free ports, no report within period
+Base Station Decision: 0/2 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 6 at Coordinates (2,0), 3 free ports (recent)
+  -> Suggested Node 4 at Coordinates (1,1), 2 free ports (recent)
+Base Station processing time: 0.007 ms
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+[INCIDENT REPORT #7] Timestamp: 2026-10-22 21:00:32 (received 2026-10-22 21:00:32)
+Reporting Node: 6 | Coordinates: (2,0) | Free Ports: 1 / 6
+Neighbour Communications: 4 messages exchanged (80 bytes total) in 5.665 ms
+Neighbour Statuses (period 500 ms):
+  - Neighbour Node 7 at (2,1): 1 free ports, no report within period
+  - Neighbour Node 3 at (1,0): 1 free ports, no report within period
+Base Station Decision: 0/2 neighbours reported within period; suggesting 2 node(s) at Manhattan Distance 2:
+  -> Suggested Node 4 at Coordinates (1,1), 3 free ports (recent)
+  -> Suggested Node 0 at Coordinates (0,0), 3 free ports (recent)
+Base Station processing time: 0.007 ms
+------------------------------------------------------------------------
+
+
+========================================================================
+SIMULATION SUMMARY REPORT
+Shutdown Time: 2026-10-22 21:00:32
+Version: blocking
+Simulation Time: 4.051 s (terminate signal after 4 s)
+Predefined Period: 500 ms
+Total Congestion Alerts Detected: 7
+Replies: 7 with suggested nodes, 0 with no nodes available nearby
+Availability Updates Received: 279
+Base Station Messages (sent + received): 311
+Neighbour Messages Described in Reports: 32
+
+Per-node statistics (from termination acknowledgements):
+Node	Coords	Ticks	Congest	LocalRedir	Reports	NbrMsgs	NbrBytes	AvgExch(ms)	MaxExch(ms)	AvgRTT(ms)	MaxRTT(ms)	AvgStopChk(ms)	Shutdown(ms)
+0	(0,0)	31	9	8		1	124	2480		10.856		113.114		0.018		0.018		14.478		26.388
+1	(0,1)	31	5	5		0	186	3720		16.219		203.943		0.000		0.000		9.246		26.399
+2	(0,2)	31	9	8		1	124	2480		14.788		192.736		16.607		16.607		9.623		26.466
+3	(1,0)	31	9	9		0	186	3720		12.350		105.763		0.000		0.000		12.984		26.635
+4	(1,1)	31	8	7		1	248	4960		17.657		222.387		0.026		0.026		7.245		26.800
+5	(1,2)	31	11	11		0	186	3720		20.851		243.906		0.000		0.000		4.680		26.839
+6	(2,0)	31	5	3		2	124	2480		12.005		57.499		0.014		0.017		13.536		26.803
+7	(2,1)	31	12	12		0	186	3720		15.379		159.441		0.000		0.000		8.771		26.803
+8	(2,2)	31	13	11		2	124	2480		17.948		218.263		0.018		0.026		8.877		26.400
+
+Incident reports: 7 sent by nodes, 7 received by the Base Station
+Total Messages/Events: 1799 (Base Station 311 + Node-to-Node 1488, 29760 bytes)
+Communication delay per message type:
+  Neighbour status exchange:                       avg 15.339 ms, max 243.906 ms (279 exchanges)
+  Incident report -> redirect reply round trip:    avg 2.388 ms, max 16.607 ms (7 answered)
+    of which communication (minus BS processing):  avg 2.380 ms, max 16.592 ms
+    of which Base Station processing:             avg 0.008 ms
+  Stop check (MPI_Reduce + MPI_Bcast per tick):   avg 9.938 ms, max 227.182 ms
+  Terminate signal -> acknowledgement:             avg 26.615 ms, max 26.839 ms
+
+Last known availability grid ('?' = no data):
+(0,0)N0:3	(0,1)N1:4	(0,2)N2:2	
+(1,0)N3:3	(1,1)N4:4	(1,2)N5:4	
+(2,0)N6:2	(2,1)N7:2	(2,2)N8:1	
+
+System Status: All 9 nodes acknowledged termination. Graceful Shutdown Completed.
+========================================================================
